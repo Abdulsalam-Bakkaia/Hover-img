@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: #dDD;
+}
+img{
+    width: 640px;
+    height: 320px;
+}
+
+.accord{
+    width: 805px;
+    margin: auto;
+    height: 320px;
+    overflow: hidden;
+}
+
+.accord li{
+    width: 160px;
+    display: block;
+    position: relative;
+    float: left;
+    border-left: 1px solid #ddd;
+    transition: all 0.5s;
+}
+
+.tit {
+    background: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    bottom: 0px;
+    width: 640px;
+
+}
+
+.tit a{
+    display: block;
+    color: #dDD;
+    padding: 20px;
+    font-size: 16px;
+    text-decoration: none;
+}
+.accord ul:hover li {
+    width: 40px;
+}
+
+.accord ul li:hover {
+    width: 640px;
+}
+
