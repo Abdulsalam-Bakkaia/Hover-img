@@ -1,52 +1,51 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-body{
-    background: #dDD;
+body {
+  background: #ddd;
+  height: 80vh;
 }
-img{
-    width: 640px;
-    height: 320px;
-}
-
-.accord{
-    width: 805px;
-    margin: auto;
-    height: 320px;
-    overflow: hidden;
+img {
+  width: 640px;
+  height: 320px;
 }
 
-.accord li{
-    width: 160px;
-    display: block;
-    position: relative;
-    float: left;
-    border-left: 1px solid #ddd;
-    transition: all 0.5s;
+.accord {
+  width: 805px;
+  margin: auto;
+  height: 320px;
+  overflow: hidden;
+}
+
+.accord li {
+  width: 160px;
+  display: block;
+  position: relative;
+  float: left;
+  border-left: 1px solid #ddd;
+  transition: all 0.5s;
 }
 
 .tit {
-    background: rgba(0, 0, 0, 0.5);
-    position: absolute;
-    bottom: 0px;
-    width: 640px;
-
+  background: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  bottom: 0px;
+  width: 640px;
 }
 
-.tit a{
-    display: block;
-    color: #dDD;
-    padding: 20px;
-    font-size: 16px;
-    text-decoration: none;
+.tit a {
+  display: block;
+  color: #ddd;
+  padding: 20px;
+  font-size: 16px;
+  text-decoration: none;
 }
 .accord ul:hover li {
-    width: 40px;
+  width: 40px;
 }
 
 .accord ul li:hover {
-    width: 640px;
+  width: 640px;
 }
-
